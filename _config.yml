@@ -20,7 +20,7 @@ title                    : "로그를 남겨야지"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "YunJegal"
-description              : "진짜만 기록하는 곳"
+description              : "개발 공부 로그를 남기는 곳"
 url                      : "https://freedom07.github.io/"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -99,9 +99,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-157165266-1"
     anonymize_ip         : # true, false (default)
 
 
@@ -220,7 +220,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:year/:month/:day/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
